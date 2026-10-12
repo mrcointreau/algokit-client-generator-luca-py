@@ -1,5 +1,5 @@
 [project]
-name = "algokit-client-generator"
+name = "algokit-client-generator-luca-py"
 version = "2.2.0"
 description = "Algorand typed client Generator"
 authors = [
@@ -36,6 +36,9 @@ dev = [
 [build-system]
 requires = ["uv_build>=0.9.5,<0.12"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "algokit_client_generator"
 
 [tool.ruff]
 line-length = 120

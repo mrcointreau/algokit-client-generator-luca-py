@@ -8,7 +8,7 @@ resolution-markers = [
 ]
 
 [[package]]
-name = "algokit-client-generator"
+name = "algokit-client-generator-luca-py"
 version = "2.2.0"
 source = { editable = "." }
 dependencies = [
